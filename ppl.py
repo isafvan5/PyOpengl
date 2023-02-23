@@ -52,7 +52,7 @@ def man():
 
     glFlush()
 
-def animate(value)
+def animate(value):
     global x,y,theta,mode
     glutPostRedisplay()
     glutTimerFunc(int(1000/60),animate,int(0))
